@@ -420,6 +420,11 @@ exports[`should match exact snapshot 1`] = `
                                           English
                                         </option>
                                         <option
+                                          value="Español"
+                                        >
+                                          Español
+                                        </option>
+                                        <option
                                           value="Русский"
                                         >
                                           Русский
@@ -433,6 +438,21 @@ exports[`should match exact snapshot 1`] = `
                                           value="简体中文"
                                         >
                                           简体中文
+                                        </option>
+                                        <option
+                                          value="繁體中文"
+                                        >
+                                          繁體中文
+                                        </option>
+                                        <option
+                                          value="Dansk"
+                                        >
+                                          Dansk
+                                        </option>
+                                        <option
+                                          value="Deutsch"
+                                        >
+                                          Deutsch
                                         </option>
                                       </select>
                                       <span
@@ -895,6 +915,11 @@ exports[`should match exact snapshot 1`] = `
                                           English
                                         </option>
                                         <option
+                                          value="Español"
+                                        >
+                                          Español
+                                        </option>
+                                        <option
                                           value="Русский"
                                         >
                                           Русский
@@ -908,6 +933,21 @@ exports[`should match exact snapshot 1`] = `
                                           value="简体中文"
                                         >
                                           简体中文
+                                        </option>
+                                        <option
+                                          value="繁體中文"
+                                        >
+                                          繁體中文
+                                        </option>
+                                        <option
+                                          value="Dansk"
+                                        >
+                                          Dansk
+                                        </option>
+                                        <option
+                                          value="Deutsch"
+                                        >
+                                          Deutsch
                                         </option>
                                       </select>
                                       <span
@@ -1755,9 +1795,13 @@ exports[`should match exact snapshot 1`] = `
                                                           options={
                                                             Array [
                                                               "English",
+                                                              "Español",
                                                               "Русский",
                                                               "Українська",
                                                               "简体中文",
+                                                              "繁體中文",
+                                                              "Dansk",
+                                                              "Deutsch",
                                                             ]
                                                           }
                                                           style={
@@ -1787,6 +1831,12 @@ exports[`should match exact snapshot 1`] = `
                                                                 English
                                                               </option>
                                                               <option
+                                                                key="Español"
+                                                                value="Español"
+                                                              >
+                                                                Español
+                                                              </option>
+                                                              <option
                                                                 key="Русский"
                                                                 value="Русский"
                                                               >
@@ -1803,6 +1853,24 @@ exports[`should match exact snapshot 1`] = `
                                                                 value="简体中文"
                                                               >
                                                                 简体中文
+                                                              </option>
+                                                              <option
+                                                                key="繁體中文"
+                                                                value="繁體中文"
+                                                              >
+                                                                繁體中文
+                                                              </option>
+                                                              <option
+                                                                key="Dansk"
+                                                                value="Dansk"
+                                                              >
+                                                                Dansk
+                                                              </option>
+                                                              <option
+                                                                key="Deutsch"
+                                                                value="Deutsch"
+                                                              >
+                                                                Deutsch
                                                               </option>
                                                             </select>
                                                             <Blueprint3.Icon

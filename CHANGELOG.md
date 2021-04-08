@@ -1,3 +1,42 @@
+# 1.0.11 (8 Mar 2021)
+
+Changes:
+
+- add Danish language translations. Special thanks to @LauritsLL
+- add German language translations. Special thanks to @Aceto1
+
+<br/>
+<br/>
+
+# 1.0.10 (25 Feb 2021)
+
+Changes:
+
+- add Spanish language translations. Special thanks to @schiappa
+
+<br/>
+<br/>
+
+# 1.0.9 (24 Feb 2021)
+
+Changes:
+
+- remove severe Windows UI lags.
+- Increase performance on weak Windows machines.
+
+<br/>
+<br/>
+
+# 1.0.8 (23 Feb 2021)
+
+Changes:
+
+- added locales for Traditional Chinese language, special thanks to @taotieren
+- minor UI improvements
+
+<br/>
+<br/>
+
 # 1.0.7 (21 Feb 2021)
 
 Changes:

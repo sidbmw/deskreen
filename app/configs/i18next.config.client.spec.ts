@@ -20,9 +20,13 @@ describe('i18next.config.client tests', () => {
       // TODO: add more languages here manually when adding new languages in app!
       const expectedMap = new Map();
       expectedMap.set('English', 'en');
+      expectedMap.set('Español', 'es');
       expectedMap.set('Русский', 'ru');
       expectedMap.set('Українська', 'ua');
       expectedMap.set('简体中文', 'zh_CN');
+      expectedMap.set('繁體中文', 'zh_TW');
+      expectedMap.set('Dansk', 'da');
+      expectedMap.set('Deutsch', 'de');
 
       const res = getLangFullNameToLangISOKeyMap();
 
@@ -35,9 +39,13 @@ describe('i18next.config.client tests', () => {
       // TODO: add more languages here manually when adding new languages in app!
       const expectedMap = new Map();
       expectedMap.set('en', 'English');
+      expectedMap.set('es', 'Español');
       expectedMap.set('ru', 'Русский');
       expectedMap.set('ua', 'Українська');
       expectedMap.set('zh_CN', '简体中文');
+      expectedMap.set('zh_TW', '繁體中文');
+      expectedMap.set('da', 'Dansk');
+      expectedMap.set('de', 'Deutsch');
 
       const res = getLangISOKeyToLangFullNameMap();
 
