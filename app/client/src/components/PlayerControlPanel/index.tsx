@@ -166,6 +166,12 @@ function PlayerControlPanel(props: PlayerControlPanelProps) {
               </Button>
             </Tooltip>
           </Col>
+          <Col xs={12} md={1}>
+            <Row center="xs" style={{ height: '42px' }}>
+              <Text>FPS:&nbsp;</Text>
+              <p id="fps-show"></p>
+            </Row>
+          </Col>
           <Col xs={12} md={5}>
             <Row center="xs" style={{ height: '42px' }}>
               <Row
