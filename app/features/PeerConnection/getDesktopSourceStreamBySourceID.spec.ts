@@ -28,7 +28,7 @@ describe('getDesktopSourceStreamBySourceID callback', () => {
             chromeMediaSource: 'desktop',
             chromeMediaSourceId: TEST_SCREEN_SHARING_SOURCE_ID,
             minFrameRate: 15,
-            maxFrameRate: 60,
+            maxFrameRate: 120,
           },
         },
       });
@@ -54,7 +54,7 @@ describe('getDesktopSourceStreamBySourceID callback', () => {
             maxHeight: TEST_HEIGHT,
 
             minFrameRate: 15,
-            maxFrameRate: 60,
+            maxFrameRate: 120,
           },
         },
       });

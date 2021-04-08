@@ -5,7 +5,7 @@ export default async (
   minSizeMultiplier = 1,
   maxSizeMultiplier = 1,
   minFrameRate = 15,
-  maxFrameRate = 60
+  maxFrameRate = 120
 ) => {
   if (width && height) {
     return navigator.mediaDevices.getUserMedia({
